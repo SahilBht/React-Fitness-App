@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# React Fitness App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+https://github.com/SahilBht/React-Fitness-App/assets/88426479/72e0ad11-15f5-4a4f-96b3-00157a56c01d
 
-In the project directory, you can run:
 
-### `npm start`
+[View Deployed App](https://lbf-react-app.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Motive
+This project was created with the primary goal of self-learning, specifically to gain a deeper understanding of React 18, React components, and integrating third-party APIs. The React Fitness App is an embodiment of this learning journey.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Features
+The React Fitness App is designed to help users explore and learn about various gym exercises. It is powered by React 18 and utilizes the Rapid API's Exercise Database API for exercise information. The app also employs Material-UI for a sleek and modern user interface. Key features of the app include:
 
-### `npm test`
+## Explore Exercise
+- Clicking on this option will take you to the Exercise Card section, where you can discover a wide range of exercises.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Search Exercise
+- Search for exercises based on specific body parts and keywords. Get a list of exercises tailored to your search criteria.
 
-### `npm run build`
+## Exercise Cards
+- When you click on an exercise card, you will be redirected to a dedicated page for that exercise. This page includes the following sections:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Exercise Information
+   - Provides detailed information about the exercise, including the body parts it targets and its benefits.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. YouTube Videos
+   - Features a collection of YouTube videos demonstrating the exercise to ensure proper form and technique.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. Similar Target Muscle Exercises
+   - Recommends other exercises that target the same muscles as the selected exercise. This can help users diversify their workout routines.
 
-### `npm run eject`
+### 4. Similar Equipment Exercises
+   - Suggests exercises that can be performed with similar gym equipment, making it easy for users to incorporate variations in their workouts.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Deploying the App
+The React Fitness App is deployed on Netlify, making it accessible to users from anywhere. To deploy your own instance of the app, follow the Netlify deployment guide.
+To run this project locally and explore its code, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
